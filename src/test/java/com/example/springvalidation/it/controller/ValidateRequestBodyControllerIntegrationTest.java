@@ -33,13 +33,6 @@ class ValidateRequestBodyControllerIntegrationTest {
                   .andExpect(MockMvcResultMatchers.status().isBadRequest());
       }
 
-      private InputDto invalidInput() {
-            InputDto input = new InputDto();
-            input.setIpAddress("invalid");
-            input.setNumberBetweenOneAndTen(99);
-            return input;
-      }
-
       private InputDto validInput() {
             InputDto input = new InputDto();
             input.setIpAddress("255.255.255.255");
