@@ -7,9 +7,9 @@ import org.springframework.validation.annotation.Validated;
 
 @Service
 @Validated
-class ValidatingService{
+public class InputValidatingService {
 
-    void validateInput(@Valid InputDto input){
+    public void validateInput(@Valid InputDto input){
       // do something
     }
 

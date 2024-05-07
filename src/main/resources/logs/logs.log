@@ -270,3 +270,115 @@ jakarta.validation.ConstraintViolationException: validateRequestParameter.param:
 2024-05-07T14:14:42.446+03:00  INFO 7236 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2024-05-07T14:14:42.449+03:00  INFO 7236 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
 2024-05-07T14:14:42.483+03:00  INFO 7236 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : Started ValidateParametersControllerTest in 1.912 seconds (process running for 3.596)
+2024-05-07T14:39:12.605+03:00  INFO 12828 --- [spring_validation] [Test worker] e.s.i.v.ValidatingServiceIntegrationTest : Starting ValidatingServiceIntegrationTest using Java 21.0.1 with PID 12828 (started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T14:39:12.606+03:00  INFO 12828 --- [spring_validation] [Test worker] e.s.i.v.ValidatingServiceIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T14:39:13.201+03:00  INFO 12828 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T14:39:13.221+03:00  INFO 12828 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-05-07T14:39:13.608+03:00  INFO 12828 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T14:39:13.670+03:00  INFO 12828 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T14:39:13.704+03:00  INFO 12828 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T14:39:13.925+03:00  INFO 12828 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T14:39:13.950+03:00  INFO 12828 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T14:39:14.114+03:00  INFO 12828 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e8b24a1
+2024-05-07T14:39:14.116+03:00  INFO 12828 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T14:39:14.491+03:00  INFO 12828 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T14:39:14.495+03:00  INFO 12828 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T14:39:15.103+03:00  INFO 12828 --- [spring_validation] [Test worker] e.s.i.v.ValidatingServiceIntegrationTest : Started ValidatingServiceIntegrationTest in 2.81 seconds (process running for 3.883)
+2024-05-07T14:39:15.786+03:00  INFO 12828 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T14:39:15.792+03:00  INFO 12828 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T14:39:15.806+03:00  INFO 12828 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-07T15:12:05.029+03:00  INFO 10408 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Starting SpringValidationApplication using Java 21.0.1 with PID 10408 (D:\JAVA\Projects\SpringValidation\build\classes\java\main started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T15:12:05.031+03:00  INFO 10408 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T15:12:05.532+03:00  INFO 10408 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T15:12:05.572+03:00  INFO 10408 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2024-05-07T15:12:05.895+03:00  INFO 10408 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-07T15:12:05.902+03:00  INFO 10408 --- [spring_validation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-07T15:12:05.902+03:00  INFO 10408 --- [spring_validation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-07T15:12:05.940+03:00  INFO 10408 --- [spring_validation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-07T15:12:05.941+03:00  INFO 10408 --- [spring_validation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 868 ms
+2024-05-07T15:12:06.035+03:00  INFO 10408 --- [spring_validation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T15:12:06.069+03:00  INFO 10408 --- [spring_validation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T15:12:06.093+03:00  INFO 10408 --- [spring_validation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T15:12:06.224+03:00  INFO 10408 --- [spring_validation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T15:12:06.239+03:00  INFO 10408 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T15:12:06.365+03:00  INFO 10408 --- [spring_validation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e67cfe1
+2024-05-07T15:12:06.367+03:00  INFO 10408 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T15:12:07.008+03:00  INFO 10408 --- [spring_validation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T15:12:07.064+03:00  INFO 10408 --- [spring_validation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T15:12:07.225+03:00  WARN 10408 --- [spring_validation] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inputService' defined in file [D:\JAVA\Projects\SpringValidation\build\classes\java\main\com\example\springvalidation\service\InputService.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'org.modelmapper.ModelMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-05-07T15:12:07.225+03:00  INFO 10408 --- [spring_validation] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T15:12:07.227+03:00  INFO 10408 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T15:12:07.229+03:00  INFO 10408 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-07T15:12:07.232+03:00  INFO 10408 --- [spring_validation] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-07T15:12:07.241+03:00  INFO 10408 --- [spring_validation] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-07T15:12:07.258+03:00 ERROR 10408 --- [spring_validation] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.example.springvalidation.service.InputService required a bean of type 'org.modelmapper.ModelMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.modelmapper.ModelMapper' in your configuration.
+
+2024-05-07T15:13:44.752+03:00  INFO 4808 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Starting SpringValidationApplication using Java 21.0.1 with PID 4808 (D:\JAVA\Projects\SpringValidation\build\classes\java\main started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T15:13:44.754+03:00  INFO 4808 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T15:13:45.637+03:00  INFO 4808 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T15:13:45.694+03:00  INFO 4808 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2024-05-07T15:13:46.307+03:00  INFO 4808 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-07T15:13:46.329+03:00  INFO 4808 --- [spring_validation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-07T15:13:46.330+03:00  INFO 4808 --- [spring_validation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-07T15:13:46.407+03:00  INFO 4808 --- [spring_validation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-07T15:13:46.408+03:00  INFO 4808 --- [spring_validation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1605 ms
+2024-05-07T15:13:46.603+03:00  INFO 4808 --- [spring_validation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T15:13:46.713+03:00  INFO 4808 --- [spring_validation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T15:13:46.743+03:00  INFO 4808 --- [spring_validation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T15:13:46.927+03:00  INFO 4808 --- [spring_validation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T15:13:46.961+03:00  INFO 4808 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T15:13:47.236+03:00  INFO 4808 --- [spring_validation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23648d2d
+2024-05-07T15:13:47.239+03:00  INFO 4808 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T15:13:47.970+03:00  INFO 4808 --- [spring_validation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T15:13:48.001+03:00  INFO 4808 --- [spring_validation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T15:13:48.471+03:00  INFO 4808 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-07T15:13:48.478+03:00  INFO 4808 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Started SpringValidationApplication in 4.286 seconds (process running for 4.801)
+2024-05-07T15:14:42.212+03:00  INFO 4808 --- [spring_validation] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-07T15:14:42.212+03:00  INFO 4808 --- [spring_validation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-07T15:14:42.213+03:00  INFO 4808 --- [spring_validation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-07T15:19:11.395+03:00  INFO 4808 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T15:19:11.397+03:00  INFO 4808 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T15:19:11.399+03:00  INFO 4808 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-07T15:19:14.722+03:00  INFO 7652 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Starting SpringValidationApplication using Java 21.0.1 with PID 7652 (D:\JAVA\Projects\SpringValidation\build\classes\java\main started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T15:19:14.724+03:00  INFO 7652 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T15:19:15.376+03:00  INFO 7652 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T15:19:15.426+03:00  INFO 7652 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2024-05-07T15:19:16.088+03:00  INFO 7652 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-07T15:19:16.097+03:00  INFO 7652 --- [spring_validation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-07T15:19:16.098+03:00  INFO 7652 --- [spring_validation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-07T15:19:16.147+03:00  INFO 7652 --- [spring_validation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-07T15:19:16.147+03:00  INFO 7652 --- [spring_validation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1378 ms
+2024-05-07T15:19:16.335+03:00  INFO 7652 --- [spring_validation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T15:19:16.407+03:00  INFO 7652 --- [spring_validation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T15:19:16.463+03:00  INFO 7652 --- [spring_validation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T15:19:16.695+03:00  INFO 7652 --- [spring_validation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T15:19:16.721+03:00  INFO 7652 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T15:19:16.914+03:00  INFO 7652 --- [spring_validation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d47dfed
+2024-05-07T15:19:16.916+03:00  INFO 7652 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T15:19:18.240+03:00  INFO 7652 --- [spring_validation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T15:19:18.274+03:00  INFO 7652 --- [spring_validation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T15:19:18.855+03:00  INFO 7652 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-07T15:19:18.862+03:00  INFO 7652 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Started SpringValidationApplication in 4.726 seconds (process running for 5.257)
+2024-05-07T15:19:21.580+03:00  INFO 7652 --- [spring_validation] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-07T15:19:21.580+03:00  INFO 7652 --- [spring_validation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-07T15:19:21.581+03:00  INFO 7652 --- [spring_validation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-07T15:19:21.685+03:00 TRACE 7652 --- [spring_validation] [http-nio-8080-exec-1] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2024-05-07T15:19:21.707+03:00 TRACE 7652 --- [spring_validation] [http-nio-8080-exec-1] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2024-05-07T15:19:52.304+03:00  INFO 7652 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T15:19:52.305+03:00  INFO 7652 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T15:19:52.308+03:00  INFO 7652 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

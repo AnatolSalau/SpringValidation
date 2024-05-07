@@ -1,7 +1,7 @@
 package com.example.springvalidation.it.validation_service;
 
 import com.example.springvalidation.dto.InputDto;
-import com.example.springvalidation.validation_service.ValidatingService;
+import com.example.springvalidation.validation_service.InputValidatingService;
 import jakarta.validation.ConstraintViolationException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -9,13 +9,12 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import org.xmlunit.builder.Input;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-class ValidatingServiceIntegrationTest {
+class InputValidatingServiceIntegrationTest {
       @Autowired
-      private ValidatingService service;
+      private InputValidatingService service;
 
       @Test
       void whenInputIsInvalid_thenThrowsException(){
