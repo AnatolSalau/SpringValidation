@@ -29,9 +29,17 @@ class InputRepositoryIntegrationTest {
             Input input = invalidInput();
 
             assertThrows(ConstraintViolationException.class, () -> {
-                  repository.save(input);
+                  Input save = repository.save(input);
                   entityManager.flush();
             });
+      }
+
+      @Test
+      void whenInputIsValid_thenSave() {
+            Input input = validInput();
+            Input save = repository.save(input);
+            assertEquals(input.getIpAddress(), save.getIpAddress());
+            entityManager.flush();
       }
 
       private Input invalidInput() {
@@ -39,6 +47,14 @@ class InputRepositoryIntegrationTest {
             input.setId(100L);
             input.setIpAddress("invalid");
             input.setNumberBetweenOneAndTen(99);
+            return input;
+      }
+
+      private Input validInput() {
+            Input input = new Input();
+            input.setId(1L);
+            input.setIpAddress("100.0.0.1");
+            input.setNumberBetweenOneAndTen(5);
             return input;
       }
 }
