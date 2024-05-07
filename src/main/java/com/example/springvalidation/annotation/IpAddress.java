@@ -1,5 +1,6 @@
 package com.example.springvalidation.annotation;
 
+import com.example.springvalidation.validation.IpAddressValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 

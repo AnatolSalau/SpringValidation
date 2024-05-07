@@ -7,7 +7,7 @@ import jakarta.validation.ConstraintValidatorContext;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class IpAddressValidator implements ConstraintValidator<IpAddress, String> {
+public class IpAddressValidator implements ConstraintValidator<IpAddress, String> {
 
       @Override
       public boolean isValid(String value, ConstraintValidatorContext context) {
