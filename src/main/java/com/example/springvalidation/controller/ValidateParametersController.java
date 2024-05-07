@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Validated
-class ValidateParametersController {
+public class ValidateParametersController {
 
       @GetMapping("/validatePathVariable/{id}")
       ResponseEntity<String> validatePathVariable(@PathVariable("id") @Min(5) int id) {

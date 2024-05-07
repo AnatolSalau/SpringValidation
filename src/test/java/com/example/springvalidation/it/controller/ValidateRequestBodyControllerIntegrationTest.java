@@ -1,5 +1,6 @@
-package com.example.springvalidation.controller;
+package com.example.springvalidation.it.controller;
 
+import com.example.springvalidation.controller.ValidateRequestBodyController;
 import com.example.springvalidation.dto.InputDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
@@ -14,7 +15,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(controllers = ValidateRequestBodyController.class)
-class ValidateRequestBodyControllerTest {
+class ValidateRequestBodyControllerIntegrationTest {
       @Autowired
       private MockMvc mvc;
       @Autowired

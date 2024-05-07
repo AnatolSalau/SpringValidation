@@ -1,5 +1,6 @@
-package com.example.springvalidation.controller;
+package com.example.springvalidation.it.controller;
 
+import com.example.springvalidation.controller.ValidateParametersController;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,11 +11,9 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(controllers = ValidateParametersController.class)
-class ValidateParametersControllerTest {
+class ValidateParametersControllerIntegrationTest {
       @Autowired
       private MockMvc mvc;
 
