@@ -16,3 +16,4 @@ validateBody JSON request:
         "ipAddress": "300.0.0.1"
     }
 
+https://www.sitepoint.com/using-java-bean-validation-method-parameters-return-values/

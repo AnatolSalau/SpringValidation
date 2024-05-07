@@ -1,7 +1,7 @@
 package com.example.springvalidation.it.validation_service;
 
 import com.example.springvalidation.dto.InputDto;
-import com.example.springvalidation.validation_service.InputValidatingService;
+import com.example.springvalidation.validation.InputValidatingService;
 import jakarta.validation.ConstraintViolationException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

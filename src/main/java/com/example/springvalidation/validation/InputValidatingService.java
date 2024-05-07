@@ -1,4 +1,4 @@
-package com.example.springvalidation.validation_service;
+package com.example.springvalidation.validation;
 
 import com.example.springvalidation.dto.InputDto;
 import jakarta.validation.Valid;

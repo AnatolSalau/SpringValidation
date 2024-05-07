@@ -809,3 +809,22 @@ Caused by: java.lang.IllegalStateException: Failed to replace DataSource with an
 2024-05-07T15:47:03.685+03:00  INFO 13196 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-07T15:47:03.688+03:00  INFO 13196 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-07T15:47:03.694+03:00  INFO 13196 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-07T16:10:45.674+03:00  INFO 12152 --- [spring_validation] [Test worker] c.e.s.i.r.InputRepositoryIntegrationTest : Starting InputRepositoryIntegrationTest using Java 21.0.1 with PID 12152 (started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T16:10:45.676+03:00  INFO 12152 --- [spring_validation] [Test worker] c.e.s.i.r.InputRepositoryIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T16:10:46.146+03:00  INFO 12152 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T16:10:46.221+03:00  INFO 12152 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-05-07T16:10:46.732+03:00  INFO 12152 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T16:10:46.838+03:00  INFO 12152 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T16:10:46.893+03:00  INFO 12152 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T16:10:47.292+03:00  INFO 12152 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T16:10:47.341+03:00  INFO 12152 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T16:10:47.607+03:00  INFO 12152 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3321291a
+2024-05-07T16:10:47.609+03:00  INFO 12152 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T16:10:49.262+03:00  INFO 12152 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T16:10:49.305+03:00  INFO 12152 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T16:10:49.631+03:00  INFO 12152 --- [spring_validation] [Test worker] c.e.s.i.r.InputRepositoryIntegrationTest : Started InputRepositoryIntegrationTest in 4.542 seconds (process running for 6.165)
+2024-05-07T16:10:50.144+03:00 TRACE 12152 --- [spring_validation] [Test worker] o.s.t.i.TransactionInterceptor           : Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2024-05-07T16:10:50.224+03:00 TRACE 12152 --- [spring_validation] [Test worker] o.s.t.i.TransactionInterceptor           : Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]
+2024-05-07T16:10:50.299+03:00  INFO 12152 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T16:10:50.300+03:00  INFO 12152 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T16:10:50.304+03:00  INFO 12152 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
