@@ -1,0 +1,272 @@
+2024-05-07T11:57:48.450+03:00  INFO 6644 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Starting SpringValidationApplication using Java 21.0.1 with PID 6644 (D:\JAVA\Projects\SpringValidation\build\classes\java\main started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T11:57:48.452+03:00  INFO 6644 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T11:57:49.437+03:00  INFO 6644 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T11:57:49.464+03:00  INFO 6644 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2024-05-07T11:57:50.278+03:00  INFO 6644 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-07T11:57:50.290+03:00  INFO 6644 --- [spring_validation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-07T11:57:50.290+03:00  INFO 6644 --- [spring_validation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-07T11:57:50.343+03:00  INFO 6644 --- [spring_validation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-07T11:57:50.343+03:00  INFO 6644 --- [spring_validation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1854 ms
+2024-05-07T11:57:50.483+03:00  INFO 6644 --- [spring_validation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T11:57:50.541+03:00  INFO 6644 --- [spring_validation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T11:57:50.581+03:00  INFO 6644 --- [spring_validation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T11:57:50.805+03:00  INFO 6644 --- [spring_validation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T11:57:50.824+03:00  INFO 6644 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T11:57:50.969+03:00  INFO 6644 --- [spring_validation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e685e6c
+2024-05-07T11:57:50.971+03:00  INFO 6644 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T11:57:51.237+03:00  INFO 6644 --- [spring_validation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T11:57:51.241+03:00  INFO 6644 --- [spring_validation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T11:57:51.642+03:00  INFO 6644 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-07T11:57:51.650+03:00  INFO 6644 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Started SpringValidationApplication in 3.617 seconds (process running for 4.189)
+2024-05-07T11:58:03.590+03:00  INFO 6644 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T11:58:03.592+03:00  INFO 6644 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T11:58:03.595+03:00  INFO 6644 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-07T12:07:48.713+03:00  INFO 2988 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Starting SpringValidationApplication using Java 21.0.1 with PID 2988 (D:\JAVA\Projects\SpringValidation\build\classes\java\main started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T12:07:48.715+03:00  INFO 2988 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T12:07:49.223+03:00  INFO 2988 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T12:07:49.266+03:00  INFO 2988 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JPA repository interfaces.
+2024-05-07T12:07:50.013+03:00  INFO 2988 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-07T12:07:50.029+03:00  INFO 2988 --- [spring_validation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-07T12:07:50.029+03:00  INFO 2988 --- [spring_validation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-07T12:07:50.101+03:00  INFO 2988 --- [spring_validation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-07T12:07:50.101+03:00  INFO 2988 --- [spring_validation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1347 ms
+2024-05-07T12:07:50.218+03:00  INFO 2988 --- [spring_validation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T12:07:50.266+03:00  INFO 2988 --- [spring_validation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T12:07:50.302+03:00  INFO 2988 --- [spring_validation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T12:07:50.650+03:00  INFO 2988 --- [spring_validation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T12:07:50.680+03:00  INFO 2988 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T12:07:50.841+03:00  INFO 2988 --- [spring_validation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45d4421d
+2024-05-07T12:07:50.843+03:00  INFO 2988 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T12:07:51.313+03:00  INFO 2988 --- [spring_validation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T12:07:51.320+03:00  INFO 2988 --- [spring_validation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T12:07:51.888+03:00  INFO 2988 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-07T12:07:51.895+03:00  INFO 2988 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Started SpringValidationApplication in 3.547 seconds (process running for 4.033)
+2024-05-07T12:11:30.731+03:00  INFO 2988 --- [spring_validation] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-07T12:11:30.731+03:00  INFO 2988 --- [spring_validation] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-07T12:11:30.732+03:00  INFO 2988 --- [spring_validation] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-07T12:11:40.349+03:00  WARN 2988 --- [spring_validation] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in org.springframework.http.ResponseEntity<java.lang.String> com.example.springvalidation.controller.ValidateRequestBodyController.validateBody(com.example.springvalidation.dto.InputDto): [Field error in object 'inputDto' on field 'ipAddress': rejected value [127.0.0.]; codes [Pattern.inputDto.ipAddress,Pattern.ipAddress,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [inputDto.ipAddress,ipAddress]; arguments []; default message [ipAddress],[Ljakarta.validation.constraints.Pattern$Flag;@531414ce,^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$]; default message [must match "^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$"]] ]
+2024-05-07T12:15:34.873+03:00  INFO 14804 --- [spring_validation] [Test worker] .e.s.c.ValidateRequestBodyControllerTest : Starting ValidateRequestBodyControllerTest using Java 21.0.1 with PID 14804 (started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T12:15:34.875+03:00  INFO 14804 --- [spring_validation] [Test worker] .e.s.c.ValidateRequestBodyControllerTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T12:15:35.753+03:00  INFO 14804 --- [spring_validation] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-07T12:15:35.753+03:00  INFO 14804 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-07T12:15:35.755+03:00  INFO 14804 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-07T12:15:35.784+03:00  INFO 14804 --- [spring_validation] [Test worker] .e.s.c.ValidateRequestBodyControllerTest : Started ValidateRequestBodyControllerTest in 1.286 seconds (process running for 2.408)
+2024-05-07T13:47:29.182+03:00  INFO 11776 --- [spring_validation] [Test worker] .e.s.c.ValidateRequestBodyControllerTest : Starting ValidateRequestBodyControllerTest using Java 21.0.1 with PID 11776 (started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T13:47:29.183+03:00  INFO 11776 --- [spring_validation] [Test worker] .e.s.c.ValidateRequestBodyControllerTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T13:47:30.047+03:00  INFO 11776 --- [spring_validation] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-07T13:47:30.048+03:00  INFO 11776 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-07T13:47:30.050+03:00  INFO 11776 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-05-07T13:47:30.078+03:00  INFO 11776 --- [spring_validation] [Test worker] .e.s.c.ValidateRequestBodyControllerTest : Started ValidateRequestBodyControllerTest in 1.249 seconds (process running for 2.257)
+2024-05-07T13:47:51.659+03:00  INFO 2988 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T13:47:51.660+03:00  INFO 2988 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T13:47:51.665+03:00  INFO 2988 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-07T13:47:54.269+03:00  INFO 5656 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Starting SpringValidationApplication using Java 21.0.1 with PID 5656 (D:\JAVA\Projects\SpringValidation\build\classes\java\main started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T13:47:54.270+03:00  INFO 5656 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T13:47:54.893+03:00  INFO 5656 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T13:47:54.911+03:00  INFO 5656 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-05-07T13:47:55.320+03:00  INFO 5656 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-07T13:47:55.330+03:00  INFO 5656 --- [spring_validation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-07T13:47:55.331+03:00  INFO 5656 --- [spring_validation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-07T13:47:55.382+03:00  INFO 5656 --- [spring_validation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-07T13:47:55.382+03:00  INFO 5656 --- [spring_validation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1069 ms
+2024-05-07T13:47:55.492+03:00  INFO 5656 --- [spring_validation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T13:47:55.538+03:00  INFO 5656 --- [spring_validation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T13:47:55.569+03:00  INFO 5656 --- [spring_validation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T13:47:55.762+03:00  INFO 5656 --- [spring_validation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T13:47:55.785+03:00  INFO 5656 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T13:47:55.918+03:00  INFO 5656 --- [spring_validation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@230232b0
+2024-05-07T13:47:55.920+03:00  INFO 5656 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T13:47:56.158+03:00  INFO 5656 --- [spring_validation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T13:47:56.162+03:00  INFO 5656 --- [spring_validation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T13:47:56.529+03:00  INFO 5656 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-07T13:47:56.534+03:00  INFO 5656 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Started SpringValidationApplication in 2.612 seconds (process running for 3.077)
+2024-05-07T13:48:04.466+03:00  INFO 5656 --- [spring_validation] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-07T13:48:04.466+03:00  INFO 5656 --- [spring_validation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-07T13:48:04.467+03:00  INFO 5656 --- [spring_validation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-07T13:48:15.585+03:00 ERROR 5656 --- [spring_validation] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.ConstraintViolationException: validatePathVariable.id: must be greater than or equal to 5] with root cause
+
+jakarta.validation.ConstraintViolationException: validatePathVariable.id: must be greater than or equal to 5
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:170) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.6.jar:6.1.6]
+	at com.example.springvalidation.controller.ValidateParametersController$$SpringCGLIB$$0.validatePathVariable(<generated>) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-05-07T13:49:05.389+03:00  INFO 5656 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T13:49:05.390+03:00  INFO 5656 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T13:49:05.393+03:00  INFO 5656 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-07T13:49:08.753+03:00  INFO 2284 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Starting SpringValidationApplication using Java 21.0.1 with PID 2284 (D:\JAVA\Projects\SpringValidation\build\classes\java\main started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T13:49:08.754+03:00  INFO 2284 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T13:49:09.347+03:00  INFO 2284 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T13:49:09.360+03:00  INFO 2284 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-05-07T13:49:09.686+03:00  INFO 2284 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-07T13:49:09.693+03:00  INFO 2284 --- [spring_validation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-07T13:49:09.693+03:00  INFO 2284 --- [spring_validation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-07T13:49:09.731+03:00  INFO 2284 --- [spring_validation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-07T13:49:09.731+03:00  INFO 2284 --- [spring_validation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 912 ms
+2024-05-07T13:49:09.820+03:00  INFO 2284 --- [spring_validation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T13:49:09.859+03:00  INFO 2284 --- [spring_validation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T13:49:09.881+03:00  INFO 2284 --- [spring_validation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T13:49:10.011+03:00  INFO 2284 --- [spring_validation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T13:49:10.029+03:00  INFO 2284 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T13:49:10.148+03:00  INFO 2284 --- [spring_validation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19002b34
+2024-05-07T13:49:10.149+03:00  INFO 2284 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T13:49:10.349+03:00  INFO 2284 --- [spring_validation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T13:49:10.352+03:00  INFO 2284 --- [spring_validation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T13:49:10.674+03:00  INFO 2284 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-07T13:49:10.679+03:00  INFO 2284 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Started SpringValidationApplication in 2.285 seconds (process running for 2.746)
+2024-05-07T13:56:54.527+03:00  INFO 2284 --- [spring_validation] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-07T13:56:54.527+03:00  INFO 2284 --- [spring_validation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-07T13:56:54.528+03:00  INFO 2284 --- [spring_validation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-07T13:57:00.441+03:00 ERROR 2284 --- [spring_validation] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.ConstraintViolationException: validateRequestParameter.param: must be greater than or equal to 5] with root cause
+
+jakarta.validation.ConstraintViolationException: validateRequestParameter.param: must be greater than or equal to 5
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:170) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.6.jar:6.1.6]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.6.jar:6.1.6]
+	at com.example.springvalidation.controller.ValidateParametersController$$SpringCGLIB$$0.validateRequestParameter(<generated>) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-05-07T14:07:14.615+03:00  INFO 2284 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T14:07:14.616+03:00  INFO 2284 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T14:07:14.619+03:00  INFO 2284 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-07T14:07:17.720+03:00  INFO 7808 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Starting SpringValidationApplication using Java 21.0.1 with PID 7808 (D:\JAVA\Projects\SpringValidation\build\classes\java\main started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T14:07:17.721+03:00  INFO 7808 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T14:07:18.239+03:00  INFO 7808 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-07T14:07:18.258+03:00  INFO 7808 --- [spring_validation] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2024-05-07T14:07:18.939+03:00  INFO 7808 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-07T14:07:18.950+03:00  INFO 7808 --- [spring_validation] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-07T14:07:18.951+03:00  INFO 7808 --- [spring_validation] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-07T14:07:19.000+03:00  INFO 7808 --- [spring_validation] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-07T14:07:19.000+03:00  INFO 7808 --- [spring_validation] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1244 ms
+2024-05-07T14:07:19.143+03:00  INFO 7808 --- [spring_validation] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-07T14:07:19.198+03:00  INFO 7808 --- [spring_validation] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-07T14:07:19.238+03:00  INFO 7808 --- [spring_validation] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-07T14:07:19.405+03:00  INFO 7808 --- [spring_validation] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-07T14:07:19.424+03:00  INFO 7808 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-07T14:07:19.585+03:00  INFO 7808 --- [spring_validation] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@720f56e2
+2024-05-07T14:07:19.587+03:00  INFO 7808 --- [spring_validation] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-07T14:07:19.969+03:00  INFO 7808 --- [spring_validation] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-07T14:07:19.977+03:00  INFO 7808 --- [spring_validation] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T14:07:20.676+03:00  INFO 7808 --- [spring_validation] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-07T14:07:20.714+03:00  INFO 7808 --- [spring_validation] [main] c.e.s.SpringValidationApplication        : Started SpringValidationApplication in 3.385 seconds (process running for 3.869)
+2024-05-07T14:07:24.712+03:00  INFO 7808 --- [spring_validation] [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-07T14:07:24.712+03:00  INFO 7808 --- [spring_validation] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-07T14:07:24.713+03:00  INFO 7808 --- [spring_validation] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-07T14:11:02.331+03:00  INFO 9432 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : Starting ValidateParametersControllerTest using Java 21.0.1 with PID 9432 (started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T14:11:02.333+03:00  INFO 9432 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T14:11:03.242+03:00  INFO 9432 --- [spring_validation] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-07T14:11:03.242+03:00  INFO 9432 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-07T14:11:03.244+03:00  INFO 9432 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-07T14:11:03.278+03:00  INFO 9432 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : Started ValidateParametersControllerTest in 1.295 seconds (process running for 2.362)
+2024-05-07T14:11:42.646+03:00  INFO 1512 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : Starting ValidateParametersControllerTest using Java 21.0.1 with PID 1512 (started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T14:11:42.648+03:00  INFO 1512 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T14:11:43.759+03:00  INFO 1512 --- [spring_validation] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-07T14:11:43.759+03:00  INFO 1512 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-07T14:11:43.761+03:00  INFO 1512 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-05-07T14:11:43.795+03:00  INFO 1512 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : Started ValidateParametersControllerTest in 1.584 seconds (process running for 3.21)
+2024-05-07T14:12:31.138+03:00  INFO 7808 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-07T14:12:31.140+03:00  INFO 7808 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-07T14:12:31.144+03:00  INFO 7808 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-07T14:14:41.186+03:00  INFO 7236 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : Starting ValidateParametersControllerTest using Java 21.0.1 with PID 7236 (started by User in D:\JAVA\Projects\SpringValidation)
+2024-05-07T14:14:41.188+03:00  INFO 7236 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-07T14:14:42.446+03:00  INFO 7236 --- [spring_validation] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-07T14:14:42.446+03:00  INFO 7236 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-07T14:14:42.449+03:00  INFO 7236 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-05-07T14:14:42.483+03:00  INFO 7236 --- [spring_validation] [Test worker] c.e.s.c.ValidateParametersControllerTest : Started ValidateParametersControllerTest in 1.912 seconds (process running for 3.596)
