@@ -17,3 +17,5 @@ validateBody JSON request:
     }
 
 https://www.sitepoint.com/using-java-bean-validation-method-parameters-return-values/
+
+https://habr.com/ru/articles/432040/
