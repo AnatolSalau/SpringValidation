@@ -1,6 +1,7 @@
 ### Validation with Spring Boot - the Complete Guide
 
-link: https://reflectoring.io/bean-validation-with-spring-boot/
+[Implementation tutorial from: https://reflectoring.io/bean-validation-with-spring-boot](https://reflectoring.io/bean-validation-with-spring-boot)
+
 
 InputDto example:
 entrypoint:
@@ -9,13 +10,10 @@ entrypoint:
     get: http://127.0.0.1:8080/validatePathVariable/6
     get: http://127.0.0.1:8080/validateRequestParameter?param=1
     
-validateBody JSON request:
+validateBody JSON request example:
 
     {
         "numberBetweenOneAndTen": 8,
         "ipAddress": "300.0.0.1"
     }
 
-https://www.sitepoint.com/using-java-bean-validation-method-parameters-return-values/
-
-https://habr.com/ru/articles/432040/
