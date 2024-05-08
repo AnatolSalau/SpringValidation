@@ -18,6 +18,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static org.mockito.Mockito.when;
 
@@ -85,6 +86,65 @@ class InputServiceTest {
                   }
             );
       }
+
+      @Test
+      void givenInputId_whenFindInput_thenReturnIpAdress() {
+            Long id = 1L;
+            String validIpAdress = "127.0.0.1";
+            when(repository.findById(id))
+                  .thenReturn(Optional.of(returnValidInput()));
+            String ipAdress = inputService.getInputIpAdressByInputId(id);
+            Assertions.assertEquals(validIpAdress, ipAdress);
+      }
+
+      @Test
+      void givenInputId_whenFindInputWithEmptyIp_thenThrow() {
+            Long id = 1L;
+            when(repository.findById(id))
+                  .thenReturn(Optional.of(returnInputWithEmptyIpAdress()));
+            Assertions.assertThrows(
+                  ConstraintViolationException.class,() -> {
+                        inputService.getInputIpAdressByInputId(id);;
+                  }
+            );
+      }
+
+      @Test
+      void givenInputId_whenFindInputWithNotValidIp_thenThrow() {
+            Long id = 1L;
+            when(repository.findById(id))
+                  .thenReturn(Optional.of(returnInputWithInvalidIpAdress()));
+            Assertions.assertThrows(
+                  ConstraintViolationException.class,() -> {
+                        inputService.getInputIpAdressByInputId(id);;
+                  }
+            );
+      }
+
+      private Input returnValidInput() {
+            Input input1 = new Input();
+            input1.setId(1L);
+            input1.setIpAddress("127.0.0.1");
+            input1.setNumberBetweenOneAndTen(1);
+            return input1;
+      }
+
+      private Input returnInputWithEmptyIpAdress() {
+            Input input1 = new Input();
+            input1.setId(1L);
+            input1.setIpAddress("");
+            input1.setNumberBetweenOneAndTen(1);
+            return input1;
+      }
+
+      private Input returnInputWithInvalidIpAdress() {
+            Input input1 = new Input();
+            input1.setId(1L);
+            input1.setIpAddress("300.255.255.255");
+            input1.setNumberBetweenOneAndTen(1);
+            return input1;
+      }
+
 
       private List<Input> returnEmptyInputList() {
             List<Input> result = new ArrayList<>();

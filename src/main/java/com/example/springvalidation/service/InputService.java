@@ -1,5 +1,6 @@
 package com.example.springvalidation.service;
 
+import com.example.springvalidation.annotation.IpAddress;
 import com.example.springvalidation.dto.InputDto;
 import com.example.springvalidation.entity.Input;
 import com.example.springvalidation.repository.InputRepository;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Validated
@@ -52,6 +54,15 @@ public class InputService {
                   .toList();
       }
 
+      @NotEmpty
+      @IpAddress
+      public String getInputIpAdressByInputId( Long id) {
+            Optional<Input> byId = repository.findById(id);
+            Input input = byId.orElseThrow(
+                  () -> new RuntimeException("Input not found")
+            );
+            return input.getIpAddress();
+      }
 
       private Input convertDtoToModel(InputDto inputDto) {
             Input map = mapper.map(inputDto, Input.class);
@@ -62,4 +73,6 @@ public class InputService {
             InputDto map = mapper.map(input, InputDto.class);
             return map;
       }
+
+
 }

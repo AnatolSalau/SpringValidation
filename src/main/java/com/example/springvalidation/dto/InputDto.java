@@ -1,5 +1,6 @@
 package com.example.springvalidation.dto;
 
+import com.example.springvalidation.annotation.IpAddress;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.Pattern;
@@ -13,6 +14,6 @@ public class InputDto {
       @Max(10)
       private int numberBetweenOneAndTen;
 
-      @Pattern(regexp = "^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}$")
+      @IpAddress
       private String ipAddress;
 }

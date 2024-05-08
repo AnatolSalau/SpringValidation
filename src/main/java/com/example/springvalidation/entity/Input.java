@@ -1,5 +1,6 @@
 package com.example.springvalidation.entity;
 
+import com.example.springvalidation.annotation.IpAddress;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -23,6 +24,6 @@ public class Input {
       @Max(10)
       private int numberBetweenOneAndTen;
 
-      @Pattern(regexp = "^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}$")
+      @IpAddress
       private String ipAddress;
 }

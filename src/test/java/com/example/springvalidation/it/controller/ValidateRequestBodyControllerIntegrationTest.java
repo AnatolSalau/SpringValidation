@@ -24,7 +24,7 @@ class ValidateRequestBodyControllerIntegrationTest {
 
       @Test
       void whenInputIsInvalid_thenReturnsStatus400() throws Exception {
-            InputDto input = validInput();
+            InputDto input = invalidInput();
             String body = mapper.writeValueAsString(input);
 
             mvc.perform(MockMvcRequestBuilders.post("/validateBody")
@@ -33,9 +33,27 @@ class ValidateRequestBodyControllerIntegrationTest {
                   .andExpect(MockMvcResultMatchers.status().isBadRequest());
       }
 
+      @Test
+      void whenInputIsValid_thenReturnsStatus200() throws Exception {
+            InputDto input = validInput();
+            String body = mapper.writeValueAsString(input);
+
+            mvc.perform(MockMvcRequestBuilders.post("/validateBody")
+                        .contentType("application/json")
+                        .content(body))
+                  .andExpect(MockMvcResultMatchers.status().is2xxSuccessful());
+      }
+
       private InputDto validInput() {
             InputDto input = new InputDto();
             input.setIpAddress("255.255.255.255");
+            input.setNumberBetweenOneAndTen(10);
+            return input;
+      }
+
+      private InputDto invalidInput() {
+            InputDto input = new InputDto();
+            input.setIpAddress("300.255.255.255");
             input.setNumberBetweenOneAndTen(10);
             return input;
       }

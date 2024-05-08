@@ -879,3 +879,175 @@ Hints:
 2024-05-08T15:07:13.446+03:00  INFO 3452 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-08T15:07:13.447+03:00  INFO 3452 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-08T15:07:13.451+03:00  INFO 3452 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08T19:17:34.749+03:00  INFO 8604 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : Starting ValidateRequestBodyControllerIntegrationTest using Java 21.0.1 with PID 8604 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:17:34.751+03:00  INFO 8604 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:17:35.759+03:00  INFO 8604 --- [spring_validation] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-08T19:17:35.759+03:00  INFO 8604 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-08T19:17:35.761+03:00  INFO 8604 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-05-08T19:17:35.795+03:00  INFO 8604 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : Started ValidateRequestBodyControllerIntegrationTest in 1.405 seconds (process running for 2.631)
+2024-05-08T19:18:49.229+03:00  INFO 25496 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : Starting ValidateRequestBodyControllerIntegrationTest using Java 21.0.1 with PID 25496 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:18:49.230+03:00  INFO 25496 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:18:50.239+03:00  INFO 25496 --- [spring_validation] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-08T19:18:50.239+03:00  INFO 25496 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-08T19:18:50.241+03:00  INFO 25496 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-05-08T19:18:50.276+03:00  INFO 25496 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : Started ValidateRequestBodyControllerIntegrationTest in 1.375 seconds (process running for 2.414)
+2024-05-08T19:20:13.841+03:00  INFO 16860 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : Starting ValidateRequestBodyControllerIntegrationTest using Java 21.0.1 with PID 16860 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:20:13.845+03:00  INFO 16860 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:20:14.830+03:00  INFO 16860 --- [spring_validation] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-08T19:20:14.830+03:00  INFO 16860 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-08T19:20:14.832+03:00  INFO 16860 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-05-08T19:20:14.870+03:00  INFO 16860 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : Started ValidateRequestBodyControllerIntegrationTest in 1.361 seconds (process running for 2.527)
+2024-05-08T19:20:15.791+03:00  WARN 16860 --- [spring_validation] [Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in org.springframework.http.ResponseEntity<java.lang.String> com.example.springvalidation.controller.ValidateRequestBodyController.validateBody(com.example.springvalidation.dto.InputDto): [Field error in object 'inputDto' on field 'ipAddress': rejected value [300.255.255.255]; codes [IpAddress.inputDto.ipAddress,IpAddress.ipAddress,IpAddress.java.lang.String,IpAddress]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [inputDto.ipAddress,ipAddress]; arguments []; default message [ipAddress]]; default message [{IpAddress.invalid}]] ]
+2024-05-08T19:21:14.042+03:00  INFO 16320 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : Starting ValidateRequestBodyControllerIntegrationTest using Java 21.0.1 with PID 16320 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:21:14.044+03:00  INFO 16320 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:21:14.940+03:00  INFO 16320 --- [spring_validation] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-08T19:21:14.940+03:00  INFO 16320 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-08T19:21:14.942+03:00  INFO 16320 --- [spring_validation] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-05-08T19:21:14.974+03:00  INFO 16320 --- [spring_validation] [Test worker] dateRequestBodyControllerIntegrationTest : Started ValidateRequestBodyControllerIntegrationTest in 1.241 seconds (process running for 2.353)
+2024-05-08T19:35:50.557+03:00  INFO 22736 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Starting InputServiceTest using Java 21.0.1 with PID 22736 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:35:50.559+03:00  INFO 22736 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:35:51.152+03:00  INFO 22736 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T19:35:51.205+03:00  INFO 22736 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2024-05-08T19:35:52.803+03:00  INFO 22736 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T19:35:52.906+03:00  INFO 22736 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T19:35:52.957+03:00  INFO 22736 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T19:35:53.092+03:00  INFO 22736 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T19:35:53.122+03:00  INFO 22736 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T19:35:53.453+03:00  INFO 22736 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@523ade68
+2024-05-08T19:35:53.455+03:00  INFO 22736 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T19:35:54.438+03:00  INFO 22736 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T19:35:54.527+03:00  INFO 22736 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:35:55.517+03:00  INFO 22736 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Started InputServiceTest in 5.204 seconds (process running for 6.148)
+2024-05-08T19:35:55.718+03:00  INFO 22736 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:35:55.722+03:00  INFO 22736 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08T19:35:55.727+03:00  INFO 22736 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08T19:36:32.655+03:00  INFO 17200 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Starting InputServiceTest using Java 21.0.1 with PID 17200 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:36:32.657+03:00  INFO 17200 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:36:33.343+03:00  INFO 17200 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T19:36:33.397+03:00  INFO 17200 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2024-05-08T19:36:34.804+03:00  INFO 17200 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T19:36:34.897+03:00  INFO 17200 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T19:36:34.941+03:00  INFO 17200 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T19:36:35.048+03:00  INFO 17200 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T19:36:35.075+03:00  INFO 17200 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T19:36:35.218+03:00  INFO 17200 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20a4cba7
+2024-05-08T19:36:35.220+03:00  INFO 17200 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T19:36:35.970+03:00  INFO 17200 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T19:36:36.012+03:00  INFO 17200 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:36:37.025+03:00  INFO 17200 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Started InputServiceTest in 4.66 seconds (process running for 6.109)
+2024-05-08T19:36:37.225+03:00  INFO 17200 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:36:37.230+03:00  INFO 17200 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08T19:36:37.236+03:00  INFO 17200 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08T19:37:17.689+03:00  INFO 5840 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Starting InputServiceTest using Java 21.0.1 with PID 5840 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:37:17.691+03:00  INFO 5840 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:37:18.294+03:00  INFO 5840 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T19:37:18.348+03:00  INFO 5840 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2024-05-08T19:37:19.583+03:00  INFO 5840 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T19:37:19.670+03:00  INFO 5840 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T19:37:19.715+03:00  INFO 5840 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T19:37:19.838+03:00  INFO 5840 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T19:37:19.872+03:00  INFO 5840 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T19:37:20.025+03:00  INFO 5840 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@336070ab
+2024-05-08T19:37:20.027+03:00  INFO 5840 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T19:37:20.763+03:00  INFO 5840 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T19:37:20.806+03:00  INFO 5840 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:37:21.724+03:00  INFO 5840 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Started InputServiceTest in 4.308 seconds (process running for 5.382)
+2024-05-08T19:37:55.263+03:00  INFO 23836 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Starting InputServiceTest using Java 21.0.1 with PID 23836 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:37:55.265+03:00  INFO 23836 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:37:55.900+03:00  INFO 23836 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T19:37:55.958+03:00  INFO 23836 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2024-05-08T19:37:57.209+03:00  INFO 23836 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T19:37:57.285+03:00  INFO 23836 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T19:37:57.324+03:00  INFO 23836 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T19:37:57.440+03:00  INFO 23836 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T19:37:57.462+03:00  INFO 23836 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T19:37:57.607+03:00  INFO 23836 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ed35f24
+2024-05-08T19:37:57.609+03:00  INFO 23836 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T19:37:58.328+03:00  INFO 23836 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T19:37:58.363+03:00  INFO 23836 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:37:59.282+03:00  INFO 23836 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Started InputServiceTest in 4.286 seconds (process running for 5.337)
+2024-05-08T19:38:19.086+03:00  INFO 14892 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Starting InputServiceTest using Java 21.0.1 with PID 14892 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:38:19.089+03:00  INFO 14892 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:38:19.605+03:00  INFO 14892 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T19:38:19.656+03:00  INFO 14892 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2024-05-08T19:38:21.227+03:00  INFO 14892 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T19:38:21.332+03:00  INFO 14892 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T19:38:21.380+03:00  INFO 14892 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T19:38:21.498+03:00  INFO 14892 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T19:38:21.523+03:00  INFO 14892 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T19:38:21.672+03:00  INFO 14892 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70700b8a
+2024-05-08T19:38:21.674+03:00  INFO 14892 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T19:38:22.658+03:00  INFO 14892 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T19:38:22.692+03:00  INFO 14892 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:38:23.663+03:00  INFO 14892 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Started InputServiceTest in 4.812 seconds (process running for 5.766)
+2024-05-08T19:38:23.851+03:00  INFO 14892 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:38:23.853+03:00  INFO 14892 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08T19:38:23.857+03:00  INFO 14892 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08T19:40:23.785+03:00  INFO 7400 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Starting InputServiceTest using Java 21.0.1 with PID 7400 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:40:23.787+03:00  INFO 7400 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:40:24.379+03:00  INFO 7400 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T19:40:24.427+03:00  INFO 7400 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-05-08T19:40:26.028+03:00  INFO 7400 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T19:40:26.141+03:00  INFO 7400 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T19:40:26.192+03:00  INFO 7400 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T19:40:26.348+03:00  INFO 7400 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T19:40:26.380+03:00  INFO 7400 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T19:40:26.553+03:00  INFO 7400 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c2b65cc
+2024-05-08T19:40:26.555+03:00  INFO 7400 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T19:40:27.726+03:00  INFO 7400 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T19:40:27.763+03:00  INFO 7400 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:40:28.854+03:00  INFO 7400 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Started InputServiceTest in 5.344 seconds (process running for 6.417)
+2024-05-08T19:40:29.145+03:00  INFO 7400 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:40:29.158+03:00  INFO 7400 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08T19:40:29.163+03:00  INFO 7400 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08T19:40:51.255+03:00  INFO 3660 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Starting InputServiceTest using Java 21.0.1 with PID 3660 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:40:51.256+03:00  INFO 3660 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:40:51.831+03:00  INFO 3660 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T19:40:51.882+03:00  INFO 3660 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2024-05-08T19:40:53.466+03:00  INFO 3660 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T19:40:53.552+03:00  INFO 3660 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T19:40:53.599+03:00  INFO 3660 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T19:40:53.723+03:00  INFO 3660 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T19:40:53.756+03:00  INFO 3660 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T19:40:53.932+03:00  INFO 3660 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3664c596
+2024-05-08T19:40:53.934+03:00  INFO 3660 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T19:40:54.779+03:00  INFO 3660 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T19:40:54.816+03:00  INFO 3660 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:40:55.800+03:00  INFO 3660 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Started InputServiceTest in 4.825 seconds (process running for 5.793)
+2024-05-08T19:40:55.995+03:00  INFO 3660 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:40:55.999+03:00  INFO 3660 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08T19:40:56.005+03:00  INFO 3660 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08T19:47:03.555+03:00  INFO 22768 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Starting InputServiceTest using Java 21.0.1 with PID 22768 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:47:03.557+03:00  INFO 22768 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:47:04.134+03:00  INFO 22768 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T19:47:04.185+03:00  INFO 22768 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-05-08T19:47:05.734+03:00  INFO 22768 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T19:47:05.835+03:00  INFO 22768 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T19:47:05.890+03:00  INFO 22768 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T19:47:06.014+03:00  INFO 22768 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T19:47:06.045+03:00  INFO 22768 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T19:47:06.228+03:00  INFO 22768 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ebe903a
+2024-05-08T19:47:06.230+03:00  INFO 22768 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T19:47:07.093+03:00  INFO 22768 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T19:47:07.129+03:00  INFO 22768 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:47:08.182+03:00  INFO 22768 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Started InputServiceTest in 4.927 seconds (process running for 5.908)
+2024-05-08T19:47:08.392+03:00  INFO 22768 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:47:08.396+03:00  INFO 22768 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08T19:47:08.401+03:00  INFO 22768 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08T19:48:04.698+03:00  INFO 12624 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Starting InputServiceTest using Java 21.0.1 with PID 12624 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T19:48:04.700+03:00  INFO 12624 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T19:48:05.259+03:00  INFO 12624 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T19:48:05.309+03:00  INFO 12624 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-05-08T19:48:06.943+03:00  INFO 12624 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T19:48:07.052+03:00  INFO 12624 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T19:48:07.116+03:00  INFO 12624 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T19:48:07.247+03:00  INFO 12624 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T19:48:07.277+03:00  INFO 12624 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T19:48:07.429+03:00  INFO 12624 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70700b8a
+2024-05-08T19:48:07.431+03:00  INFO 12624 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T19:48:08.253+03:00  INFO 12624 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T19:48:08.291+03:00  INFO 12624 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:48:09.321+03:00  INFO 12624 --- [spring_validation] [Test worker] c.e.s.it.service.InputServiceTest        : Started InputServiceTest in 4.864 seconds (process running for 5.841)
+2024-05-08T19:48:09.552+03:00  INFO 12624 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T19:48:09.555+03:00  INFO 12624 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08T19:48:09.559+03:00  INFO 12624 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
