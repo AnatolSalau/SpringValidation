@@ -1,4 +1,4 @@
-package com.example.springvalidation.validation;
+package com.example.springvalidation.validator;
 
 import com.example.springvalidation.annotation.IpAddress;
 import jakarta.validation.ConstraintValidator;

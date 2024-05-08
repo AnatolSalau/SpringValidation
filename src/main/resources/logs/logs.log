@@ -1068,3 +1068,20 @@ Hints:
 2024-05-08T20:04:26.444+03:00  INFO 25656 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-08T20:04:26.447+03:00  INFO 25656 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-08T20:04:26.451+03:00  INFO 25656 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-08T20:21:27.631+03:00  INFO 3320 --- [spring_validation] [Test worker] .e.s.i.v.ValidatingServiceWithGroupsTest : Starting ValidatingServiceWithGroupsTest using Java 21.0.1 with PID 3320 (started by RedmiBook in D:\JavaDevelop\Projects\SpringValidation)
+2024-05-08T20:21:27.633+03:00  INFO 3320 --- [spring_validation] [Test worker] .e.s.i.v.ValidatingServiceWithGroupsTest : No active profile set, falling back to 1 default profile: "default"
+2024-05-08T20:21:28.223+03:00  INFO 3320 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-08T20:21:28.275+03:00  INFO 3320 --- [spring_validation] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2024-05-08T20:21:28.685+03:00  INFO 3320 --- [spring_validation] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-08T20:21:28.748+03:00  INFO 3320 --- [spring_validation] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-08T20:21:28.794+03:00  INFO 3320 --- [spring_validation] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-08T20:21:28.996+03:00  INFO 3320 --- [spring_validation] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-08T20:21:29.032+03:00  INFO 3320 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-08T20:21:29.180+03:00  INFO 3320 --- [spring_validation] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b65084e
+2024-05-08T20:21:29.182+03:00  INFO 3320 --- [spring_validation] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-08T20:21:29.907+03:00  INFO 3320 --- [spring_validation] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-08T20:21:29.949+03:00  INFO 3320 --- [spring_validation] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T20:21:31.011+03:00  INFO 3320 --- [spring_validation] [Test worker] .e.s.i.v.ValidatingServiceWithGroupsTest : Started ValidatingServiceWithGroupsTest in 3.648 seconds (process running for 4.601)
+2024-05-08T20:21:31.478+03:00  INFO 3320 --- [spring_validation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-08T20:21:31.479+03:00  INFO 3320 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-08T20:21:31.483+03:00  INFO 3320 --- [spring_validation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
